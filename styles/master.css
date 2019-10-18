@@ -1,0 +1,28 @@
+@import "reset.css";
+
+
+/* 
+  Секция Hero
+*/
+.hero{
+  height: 90vh;
+  background-image: url(../img/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  ba
+}
+.hero nav {
+  background: #006AFF;
+  display: inline-block;
+}
+
+.hero a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero nav ul li{
+  display: inline-block;
+}
