@@ -1,6 +1,13 @@
 @import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Cousine&display=swap');
+body {
+  font-family: 'Cousine', monospace;
+  -webkit-font-smoothing: antialiased;
+}
 
-
+:root{
+  --blue: #006AFF;
+}
 /* 
   Секция Hero
 */
@@ -11,11 +18,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  ba
+  text-align: center;
+  position: relative;
 }
 .hero nav {
-  background: #006AFF;
+  background: var(--blue);
   display: inline-block;
+  margin-top: 20px;
 }
 
 .hero a{
@@ -25,4 +34,27 @@
 
 .hero nav ul li{
   display: inline-block;
+  padding: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 110px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.hero .btn {
+  background-color: var(--blue);
+  text-transform: uppercase;
+  padding: 5px 10px;
+  letter-spacing: 1.5px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 26px;
 }
